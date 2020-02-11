@@ -1,0 +1,30 @@
+body {
+  background: #F6CED8;
+  font-family: cursive;
+  font-size: 30px;
+  color: #8A0808;
+}
+.escondido{
+    display: none;
+}
+h1 {
+  text-align: center;
+}
+
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #DF0101;
+  font-family: cursive;
+}
+label {
+  width: auto;
+  background: #FE9A2E;
+  color: #2E2E2E;
+  font-family:monospace;
+}
+button {
+  background-color: yellow;
+  color: #2E2E2E;
+}

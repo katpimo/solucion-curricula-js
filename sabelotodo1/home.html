@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>SABELOTODO.com</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app2.js"></script>
+  </head>
+  <body>
+    <h1>Bienvenid@ a SABELOTODO.com</h1>
+    <h2 id="name"></h2>
+        <form action="hp_home.html" method="get">
+            <input type="submit" value="Historia del Per&uacute;" name="Submit" id="HP_boton" />
+        </form>
+        <form action="hu_home.html" method="get">
+            <input type="submit" value="Historia Universal" name="Submit" id="HU_boton" />
+        </form>
+     <script type="text/javascript">
+        var nombre;
+        nombre= prompt ("Ingresa tu nombre para jugar");
+        document.getElementById("name").innerHTML ="¡"+nombre+"!";
+     </script>
+  </body>
+</html>
